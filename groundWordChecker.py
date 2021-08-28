@@ -1,5 +1,5 @@
 cnt = 0
-for i in range(input()):
+for _ in range(int(input())):
     s = input()
     cnt += list(s) == sorted(s, key=s.find)
 print(cnt)
